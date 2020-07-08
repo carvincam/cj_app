@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center  title-font">
+      Contractions Now!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-card>
+  <ion-title style="text-align: center" class="tab">COLOR THEME</ion-title>
+  <ion-list style="text-align: center">
+    <ion-chip>
+      <ion-label (click)='switchThemeDefault()'>DEFAULT</ion-label>
+    </ion-chip>
+
+    <ion-chip>
+      <ion-label (click)='switchThemeNeutral()'>NEUTRAL</ion-label>
+    </ion-chip>
+
+    <ion-chip>
+      <ion-label (click)='switchThemeDark()'>DARK</ion-label>
+    </ion-chip>
+  </ion-list>
+</ion-card>
+
+
+</ion-content>

@@ -1,0 +1,77 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center title-font"><ion-icon name="baby" size="large"></ion-icon>
+      Contractions Now!
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title class="row center">Home</ion-title>
+    </ion-toolbar>
+    
+  </ion-header>
+
+  <div class="stopwatch-display">
+    <h1 style="text-align: center" class="color-white font-lg">
+      {{time}}
+    </h1>
+</div>
+
+
+
+    <ion-content >
+
+      
+      
+      <div class="align-right">
+        <div class="col text-right">
+      <ion-button size="small" (click)='presentToast' (click)='reset()' (click)='lapTime()' (click)='registerNotification(100)' (click)='clear()' (click)='stop()'>CLEAR ALL</ion-button></div></div>
+
+      <ion-fab class="fab-size" vertical="top" horizontal="center" slot="fixed">
+        <ion-fab-button class="fab-size" size="large" (click)='start()'(click)='lapType()' (click)='changeText()' (click)='lapTime()'>{{textGO}}</ion-fab-button>
+      </ion-fab>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+        <ion-row style="text-align: bottom"> 
+           <ion-col width-50 style="text-align: center">
+
+            
+              <h1>
+                
+                <ion-list (click)='tab4()' class="list-class shadow-blue" *ngFor="let term of laps; let i = index">
+                  
+                  
+                  <div class="align-left">
+                    <span>
+                      <h2 class="text-font1">{{ textType[i] }}</h2>
+                        </span>
+                    </div>
+                 
+                    
+                    <div>
+                  <span class="align-right">
+                    <h2>{{ term }}</h2>
+                      </span>
+                  </div>
+
+                 
+                </ion-list>
+              
+              </h1>
+          
+           </ion-col>
+         </ion-row>
+         
+        </ion-content>
+       
+</ion-content>
+

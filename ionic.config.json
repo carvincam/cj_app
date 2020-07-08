@@ -1,0 +1,7 @@
+{
+  "name": "cn-v1.2",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

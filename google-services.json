@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018586416838",
+    "firebase_url": "https://contractions-now.firebaseio.com",
+    "project_id": "contractions-now",
+    "storage_bucket": "contractions-now.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018586416838:android:43aa36c77782f56ff6f9c7",
+        "android_client_info": {
+          "package_name": "com.cj.cn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018586416838-s0036gc6pp1p2qt3a00sddqv39cgovor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNC0qLw5uCfFnELaUfloPmSh8CxEyJHYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018586416838-s0036gc6pp1p2qt3a00sddqv39cgovor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
